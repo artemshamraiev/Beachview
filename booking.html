@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Beachview</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/gallery.css">
+    <link rel="stylesheet" href="css/slider.css">
+    <link rel="icon" type="image/png" href="img/favicon/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/svg+xml" href="img/favicon/favicon.svg">
+    <link rel="shortcut icon" href="img/favicon/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
+    <link rel="manifest" href="img/favicon/site.webmanifest">
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <div id="wrapper">
+        <header id="header">
+            <div class="logo-title">
+                <a href="index.html"><img src="img/logo.png" alt="Logo" class="logo"></a>
+                <h1>Booking</h1>
+            </div>
+            <nav id="nav">
+                <ul class="main-menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li class="menu-children">
+                        <a href="facilities.html">Facilities</a>
+                        <ul>
+                            <li><a href="glasgow.html">Glasgow Room</a></li>
+                            <li><a href="edinburgh.html">Edinburgh Room</a></li>
+                            <li><a href="aberdeen.html">Aberdeen Room</a></li>
+                            <li><a href="dundee.html">Dundee Room</a></li>
+                            <li><a href="restaurant.html">Restaurant</a></li>          
+                        </ul>
+                    </li>
+                    <li><a href="area.html">Area</a></li>
+                    <li class="menu-children">
+                        <a href="guest-gallery.html">Guests</a>
+                        <ul>
+                            <li><a href="guest-gallery.html">Photo Gallery</a></li>
+                            <li><a href="guest-reviews.html">Guest Stories</a></li>
+                        </ul>
+                    </li>
+                    <li class="menu-children active">
+                        <a href="booking.html">Booking</a>
+                        <ul>
+                            <li><a href="booking.html">Booking</a></li>
+                            <li><a href="img/price-list.pdf" download>Rates & Packages</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="contacts.html">Contact Us</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main id="main">
+            <div class="left-column">
+                <div class="text-block">
+                    <h3>You can book a room in any convenient way.</h3>
+                    <p>Phone: +44 (0) 1234 567890</p>
+                    <p>Email: info@beachview-dornoch.com</p>
+                </div>
+                <div class="active-info-block">
+                    <div class="active-info-block-border">
+                        <table class="active-info-table">
+                            <thead>
+                                <tr>
+                                    <th>Room</th>
+                                    <th>Type</th>
+                                    <th>Bath</th>
+                                    <th>Price</th>
+                                    <th>Capacity</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><a href="glasgow.html">Glasgow room</a></td>
+                                    <td>Twin</td>
+                                    <td>Yes</td>
+                                    <td>£60</td>
+                                    <td class="td-center">3</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="edinburgh.html">Edinburgh room</a></td>
+                                    <td>Double</td>
+                                    <td>Yes</td>
+                                    <td>£65</td>
+                                    <td class="td-center">2</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="aberdeen.html">Aberdeen room</a></td>
+                                    <td>Family</td>
+                                    <td>Yes</td>
+                                    <td>£55</td>
+                                    <td class="td-center">2</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="dundee.html">Dundee room</a></td>
+                                    <td>Single</td>
+                                    <td>No</td>
+                                    <td>£50</td>
+                                    <td class="td-center">1</td> 
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div class="active-info-block">
+                    <div class="active-info-block-border">
+                        <h3>Make a Reservation</h3>
+                        <form class="form-container">
+                            <div class="form-container-horizontal">
+                                <div class="form-group">
+                                    <input type="text" id="guest-name" name="name" class="form-input" placeholder=" " required>
+                                    <label for="guest-name" class="form-label">Name</label>
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" id="guest-email" name="email" class="form-input" placeholder=" " required>
+                                    <label for="guest-email" class="form-label">Email</label>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <textarea id="message" name="message" class="form-textarea" placeholder=" " required></textarea>
+                                <label for="message" class="form-label">Message</label>
+                            </div>
+                            <div class="form-container-horizontal">
+                                <div class="form-group">
+                                    <div class="form-select">
+                                        <select id="room-select" name="room" class="form-select" required>
+                                            <option value="">Select a room</option>
+                                            <option value="glasgow">Glasgow</option>
+                                            <option value="edinburgh">Edinburgh</option>
+                                            <option value="aberdeen">Aberdeen</option>
+                                            <option value="dundee">Dundee</option>
+                                        </select>
+                                    </div>
+                                    <button type="submit" class="button">Booking</button>
+                                </div>    
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="right-column">
+                <div class="guest-reviews-list">
+                    <div class="guest-review">
+                        <h3>Glasgow Room</h3>
+                        <p>A cozy twin room with two single beds, perfect for friends or business partners. The room is decorated in warm tones with elements of traditional Scottish design. The Glasgow room is ideal for those who value comfort and privacy. A quiet garden view creates an atmosphere of tranquility, and the convenient furniture arrangement allows for comfortable work or relaxation.</p>
+                    </div>
+                    <div class="guest-review">
+                        <h3>Edinburgh Room</h3>
+                        <p>A romantic double room with a king-size bed, specially designed for couples. The room is decorated in elegant tones with elements of modern Scottish design. The Edinburgh room is perfect for those seeking a cozy atmosphere and comfort. Soft lighting and panoramic windows create a special romantic atmosphere, and the convenient layout allows you to fully enjoy your stay.</p>
+                    </div>
+                    <div class="guest-review">
+                        <h3>Aberdeen Room</h3>
+                        <p>A spacious family room with a king-size bed and additional space for a child. The room is decorated in light tones with elements of traditional Scottish design. The Aberdeen room is ideal for family vacations. The spacious layout and specially equipped children's area create comfortable conditions for the whole family to relax, while panoramic windows provide a wonderful view of the surroundings.</p>
+                    </div>
+                    <div class="guest-review">
+                        <h3>Dundee Room</h3>
+                        <p>A compact single room with a single bed, perfect for individual travelers. The room is decorated in a modern style with minimalist elements. The Dundee room is designed for those who value functionality and coziness. Despite its compact size, every detail is thoughtfully arranged for comfortable accommodation, and the convenient furniture placement creates a sense of spaciousness.</p>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer id="footer">
+            <div class="footer-content">
+                <div class="footer-left">
+                    <a href="contacts.html">123 Shore Road, Dornoch, IV25 3SD, Scotland</a>
+                </div>
+                <div class="footer-center">
+                    <p>Copyright &copy; 2025 Artem Shamraiev</p>
+                </div>
+                <div class="footer-right">
+                    <a href="img/price-list.pdf" download>View Rates</a>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
