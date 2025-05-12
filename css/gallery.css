@@ -63,74 +63,50 @@
 /* Custom CSS3 rotate transformation */
 .gallery a:nth-child(1) img,
 .gallery a:nth-child(1)::before {
-    -moz-transform: rotate(-25deg);
-    -webkit-transform: rotate(-25deg);
     transform: rotate(-25deg);
 }
 .gallery a:nth-child(2) img,
 .gallery a:nth-child(2)::before {
-    -moz-transform: rotate(-20deg);
-    -webkit-transform: rotate(-20deg);
     transform: rotate(-20deg);
 }
 .gallery a:nth-child(3) img,
 .gallery a:nth-child(3)::before {
-    -moz-transform: rotate(-15deg);
-    -webkit-transform: rotate(-15deg);
     transform: rotate(-15deg);
 }
 .gallery a:nth-child(4) img,
 .gallery a:nth-child(4)::before {
-    -moz-transform: rotate(-10deg);
-    -webkit-transform: rotate(-10deg);
     transform: rotate(-10deg);
 }
 .gallery a:nth-child(5) img,
 .gallery a:nth-child(5)::before {
-    -moz-transform: rotate(-5deg);
-    -webkit-transform: rotate(-5deg);
     transform: rotate(-5deg);
 }
 .gallery a:nth-child(6) img,
 .gallery a:nth-child(6)::before {
-    -moz-transform: rotate(0deg);
-    -webkit-transform: rotate(0deg);
     transform: rotate(0deg);
 }
 .gallery a:nth-child(7) img,
 .gallery a:nth-child(7)::before {
-    -moz-transform: rotate(5deg);
-    -webkit-transform: rotate(5deg);
     transform: rotate(5deg);
 }
 .gallery a:nth-child(8) img,
 .gallery a:nth-child(8)::before {
-    -moz-transform: rotate(10deg);
-    -webkit-transform: rotate(10deg);
     transform: rotate(10deg);
 }
 .gallery a:nth-child(9) img,
 .gallery a:nth-child(9)::before {
-    -moz-transform: rotate(15deg);
-    -webkit-transform: rotate(15deg);
     transform: rotate(15deg);
 }
 .gallery a:nth-child(10) img,
 .gallery a:nth-child(10)::before {
-    -moz-transform: rotate(20deg);
-    -webkit-transform: rotate(20deg);
     transform: rotate(20deg);
 }
 .gallery a:nth-child(11) img,
 .gallery a:nth-child(11)::before {
-    -moz-transform: rotate(25deg);
-    -webkit-transform: rotate(25deg);
     transform: rotate(25deg);
 }
 .gallery a:nth-child(12) img,
 .gallery a:nth-child(12)::before {
-    -moz-transform: rotate(30deg);
-    -webkit-transform: rotate(30deg);
     transform: rotate(30deg);
 }
 
@@ -149,23 +125,11 @@
     transform: translate(-50%, -50%) rotate(0deg);
 
     /* CSS3 transition rules */
-    -webkit-transition: transform 1.5s cubic-bezier(0.25, 0.1, 0.25, 1),
-                        height 1.5s cubic-bezier(0.25, 0.1, 0.25, 1),
-                        width 1.5s cubic-bezier(0.25, 0.1, 0.25, 1);
-    -moz-transition: transform 1.5s cubic-bezier(0.25, 0.1, 0.25, 1),
-                     height 1.5s cubic-bezier(0.25, 0.1, 0.25, 1),
-                     width 1.5s cubic-bezier(0.25, 0.1, 0.25, 1);
-    -o-transition: transform 1.5s cubic-bezier(0.25, 0.1, 0.25, 1),
-                   height 1.5s cubic-bezier(0.25, 0.1, 0.25, 1),
-                   width 1.5s cubic-bezier(0.25, 0.1, 0.25, 1);
     transition: transform 1.5s cubic-bezier(0.25, 0.1, 0.25, 1),
                 height 1.5s cubic-bezier(0.25, 0.1, 0.25, 1),
                 width 1.5s cubic-bezier(0.25, 0.1, 0.25, 1);
 
     /* CSS3 Box Shadow */
-    -moz-box-shadow: 2px 2px 4px #444;
-    -webkit-box-shadow: 2px 2px 4px #444;
-    -o-box-shadow: 2px 2px 4px #444;
     box-shadow: 2px 2px 4px #444;
 }
 
