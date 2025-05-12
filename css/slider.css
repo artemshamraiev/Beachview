@@ -86,7 +86,6 @@
 	width: 84%;
 	height: 72%;
 	transform: translateZ(0);
-	-webkit-transform: translateZ(0);
 }
 .cssSlider .thumbnails > li > a::after {
 	content: '';
@@ -101,7 +100,6 @@
 	background-size: contain;
 	pointer-events: none;
 	transform: translateZ(0);
-	-webkit-transform: translateZ(0);
 }
 .cssSlider .slides li:target {
 	z-index: 3;
