@@ -367,8 +367,24 @@ body {
     background-color: #cccccc;
     color: #999;
     cursor: pointer;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
 }
 
+.form-upload::file-selector-button {
+    background: #1f8197;
+    color: #fff;
+    padding: 6px 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.form-upload:hover::file-selector-button {
+    background: #15596b;
+}
 
 .form-label {
     position: absolute;
@@ -398,39 +414,6 @@ body {
 
 
 
-.form-upload::-webkit-file-upload-button,
-.form-upload::file-selector-button {
-    background: #1f8197;
-    color: #fff;
-    padding: 6px 12px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    margin-right: 10px;
-}
-
-/* Добавляем поддержку Firefox */
-.form-upload::-moz-file-upload-button {
-    background: #1f8197;
-    color: #fff;
-    padding: 6px 12px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    margin-right: 10px;
-}
-
-/* Добавляем поддержку MS Edge */
-.form-upload::-ms-browse {
-    background: #1f8197;
-    color: #fff;
-    padding: 6px 12px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    margin-right: 10px;
-}
-
 .guest-reviews-list {
     display: flex;
     flex-direction: column;
@@ -439,8 +422,6 @@ body {
     max-height: 600px;
     overflow-y: auto;
 }
-
-
 
 
 
