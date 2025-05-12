@@ -365,11 +365,8 @@ body {
     border: 1px solid #ddd;
     border-radius: 4px;
     background-color: #cccccc;
-    color: #999;
+    color: #000000;
     cursor: pointer;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
 }
 
 .form-upload::file-selector-button {
@@ -380,9 +377,10 @@ body {
     border-radius: 4px;
     cursor: pointer;
     margin-right: 10px;
+    font-family: inherit;
 }
 
-.form-upload:hover::file-selector-button {
+.form-upload::file-selector-button:hover {
     background: #15596b;
 }
 
