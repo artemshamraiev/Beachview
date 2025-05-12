@@ -1,20 +1,18 @@
 /* Photo Gallery based on https://pcvector.net/scripts/image-effects/318-css3-fotogalereya.html */
 
 .gallery {
-    border: 1px solid #000000;
+    /* border: 1px solid #000000; */
     /* margin: 5px auto 2px; */
     margin: 5px;
-    margin-left: 30px;
+    margin-left: 50px;
     width: 750px;
 }
 
 .gallery a {
     display: inline-block;
     height: 200px;
-    /* height: 280px; */
     position: relative;
     width: 180px;
-    /* width: 250px; */
 }
 
 
