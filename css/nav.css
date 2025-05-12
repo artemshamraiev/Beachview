@@ -12,6 +12,7 @@
   flex-wrap: wrap;
   justify-content: center;
   */
+  width: 650px;
 }
 .main-menu > li {
   display: inline-flex;
