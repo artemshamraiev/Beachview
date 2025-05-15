@@ -7,18 +7,23 @@
   padding: 0;
   margin-top: 20px;
   font-family: 'Montserrat', sans-serif;    
-  /* For centering the menu
+  /* For centering the menu */
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
-  */
-  width: 650px;
+  justify-content: right;
+ 
+  /* justify-content: left; */
+
+  width: 540px;
+  /* width: auto; */
+
 }
 .main-menu > li {
   display: inline-flex;
+
 }
 .main-menu > li + li {
-  margin-left: 20px; 
+  margin-left: 4px; 
 }
 .main-menu > li > a {
   padding: 0 0 20px 0;
