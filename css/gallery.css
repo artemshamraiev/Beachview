@@ -2,20 +2,25 @@
 
 .gallery {
     /* border: 1px solid #000000; */
-    /* margin: 5px auto 2px; */
-    margin: 5px;
-    margin-left: 50px;
-    width: 750px;
+    margin: -10px auto -5px;
+    width: 100%;
+    max-width: 1600px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    box-sizing: border-box;
 }
 
 .gallery a {
     display: inline-block;
-    height: 200px;
+    height: clamp(160px, 14vw, 200px);
     position: relative;
-    width: 180px;
+    width: clamp(130px, 12vw, 180px);
+    margin: 0;
 }
-
-
 
 .gallery a::before {
     content: '';
@@ -35,7 +40,7 @@
     border: none;
     cursor: pointer;
     display: block;
-    height: 160px;
+    height: clamp(125px, 12vw, 165px);
     left: 8px;
     position: absolute;
     top: 8px;
@@ -45,17 +50,16 @@
     object-fit: cover;
 }
 
-
 .gallery-3x2 a {
-    height: 270px;
-    width: 240px;
+    margin-top: 10px;
+    height: clamp(220px, 17vw, 270px);
+    width: clamp(180px, 15vw, 240px);
 }
 
 .gallery-3x2 a img {
-    height: 240px;
+    margin-top: 10px;
+    height: clamp(180px, 14vw, 240px);
 }
-
-
 
 /* Custom CSS3 rotate transformation */
 .gallery a:nth-child(1) img,
